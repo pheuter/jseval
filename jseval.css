@@ -1,0 +1,22 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.container {
+  margin-top: 50px;
+}
+
+div.hero-unit p {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* Pretty-print tweaks */
+pre.prettyprint {
+  width: 100%;
+}

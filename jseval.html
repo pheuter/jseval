@@ -1,0 +1,28 @@
+<head>
+  <title>JS Eval</title>
+</head>
+
+<body>
+  <div class="container">
+    <p class="lead">Format and evaluate js code as you type</p>
+    {{> code}}
+  </div>
+</body>
+
+<template name="code">
+  {{#constant}}
+    <textarea rows="5"></textarea>
+  {{/constant}}
+  <div class="row">
+    <div class="span6">
+      <h3>Format</h3>
+      <pre class="prettyprint">{{input}}</pre>
+    </div>
+    <div class="span6">
+      <h3>Output</h3>
+      <div class="well well-small">
+        {{output}}
+      </div>
+    </div>
+  </div>
+</template>
